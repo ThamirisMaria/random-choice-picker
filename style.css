@@ -39,6 +39,8 @@ h3{
     font-size: 16px;
     /* removes resize handle */
     resize: none;
+    /* removes default scrollbar in IE */
+    overflow: auto;
 }
 
 textarea:focus {
