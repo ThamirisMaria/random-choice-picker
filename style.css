@@ -47,6 +47,41 @@ textarea:focus {
     outline: none;
 }
 
+/*button*/
+#enter{
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0 0 5px 0;
+    text-decoration: none;
+    background: #2a9955;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#enter:hover,
+#enter:focus {
+    background: #188140;
+}
+
+#enter:focus {
+    outline: none;
+    outline-offset: -4px;
+}
+
+#enter:active {
+    transform: scale(1.1);
+}
+/*button*/
+
 .tag{
     background-color: #dcf02b;
     color: #FFFFFF;

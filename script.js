@@ -66,3 +66,10 @@ function highlightTag(tag){
 function unHighlightTag(tag){
     tag.classList.remove('highlight')
 }
+
+/* button */
+document.getElementById("enter").onclick = function() {
+    setTimeout(() => {
+        e.target.value = ''
+    }, 10) 
+randomSelect()}
